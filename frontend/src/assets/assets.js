@@ -62,6 +62,15 @@ import parcel_icon from './parcel_icon.png'
 import checked from './checked.png'
 import un_checked from './un_checked.png'
 
+import carpenter from './carpenter.jpeg'
+import plumbing from './plumbing.jpeg'
+import tutoring from './Tutoring.jpeg'
+import Househelp from './Househelp.jpeg'
+import gardening from './gardening.jpeg'
+import washing from './washing.jpeg'
+import whitewash from './whitewash.jpeg'
+
+
 export const assets = {
     logo,
     basket_icon,
@@ -87,39 +96,61 @@ export const assets = {
 }
 
 export const menu_list = [
+    
     {
-        menu_name: "Salad",
-        menu_image: menu_1
-    },
-    {
-        menu_name: "Rolls",
-        menu_image: menu_2
-    },
-    {
-        menu_name: "Deserts",
-        menu_image: menu_3
-    },
-    {
-        menu_name: "Sandwich",
-        menu_image: menu_4
-    },
-    {
-        menu_name: "Cake",
-        menu_image: menu_5
-    },
-    {
-        menu_name: "Pure Veg",
-        menu_image: menu_6
-    },
-    {
-        menu_name: "Pasta",
-        menu_image: menu_7
-    },
-    {
-        menu_name: "Noodles",
-        menu_image: menu_8
-    }]
+        menu_name:"Washing",
+        menu_image: washing
+     },
+     {
+        menu_name:"Plumbing",
+        menu_image: plumbing
+     } ,
+     {
+        menu_name:"House Help",
+        menu_image:Househelp  
+     },
+     {menu_name:"Gardening",
+        menu_image:gardening}
+         ,{menu_name:"White Washing",
+            menu_image:whitewash} ,{menu_name:"Tutoring",menu_image:tutoring} ,
+            {menu_name:"Carpenter",
+            menu_image:carpenter}]
 
+// export const menu_list = [
+//     {
+//         menu_name: "Salad",
+//         menu_image: menu_1
+//     },
+//     {
+//         menu_name: "Rolls",
+//         menu_image: menu_2
+//     },
+//     {
+//         menu_name: "Deserts",
+//         menu_image: menu_3
+//     },
+//     {
+//         menu_name: "Sandwich",
+//         menu_image: menu_4
+//     },
+//     {
+//         menu_name: "Cake",
+//         menu_image: menu_5
+//     },
+//     {
+//         menu_name: "Pure Veg",
+//         menu_image: menu_6
+//     },
+//     {
+//         menu_name: "Pasta",
+//         menu_image: menu_7
+//     },
+//     {
+//         menu_name: "Noodles",
+//         menu_image: menu_8
+//     }]
+
+    
 export const food_list = [
     {
         _id: "1",

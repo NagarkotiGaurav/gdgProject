@@ -11,7 +11,6 @@ const StoreContextProvider = (props) => {
     const [token, setToken] = useState("")
     const currency = "₹";
     const deliveryCharge = 50;
-
     const addToCart = async (itemId) => {
         if (!cartItems[itemId]) {
             setCartItems((prev) => ({ ...prev, [itemId]: 1 }));
@@ -72,6 +71,7 @@ const StoreContextProvider = (props) => {
         url,
         food_list ,
         menu_list,
+        
         cartItems,
         addToCart,
         removeFromCart,
